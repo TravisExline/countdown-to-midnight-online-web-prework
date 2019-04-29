@@ -18,7 +18,7 @@ def countdown_with_sleep(down)
   while down <= 5
     sleep(1); puts "#{down}"
     down -= 1
-    if down = 0
+    if down == 0
       break
     end
   end
